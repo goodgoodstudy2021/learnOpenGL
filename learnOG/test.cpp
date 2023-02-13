@@ -1,49 +1,18 @@
-//#include <fstream>
-//#include <iostream>
-//using namespace std;
+//#include<glm/glm.hpp>
+//#include<glm/gtc/matrix_transform.hpp>
+//#include<glm/gtc/type_ptr.hpp>
+//#include<iostream>
+//#include<stdio.h>
 //
 //int main()
 //{
-//
-//    char data[100];
-//
-//    // 以写模式打开文件
-//    ofstream outfile;
-//    outfile.open("afile.dat");
-//
-//    cout << "Writing to the file" << endl;
-//    cout << "Enter your name: ";
-//    cin.getline(data, 100);
-//
-//    // 向文件写入用户输入的数据
-//    outfile << data << endl;
-//
-//    cout << "Enter your age: ";
-//    cin >> data;
-//    cin.ignore();
-//
-//    // 再次向文件写入用户输入的数据
-//    outfile << data << endl;
-//
-//    // 关闭打开的文件
-//    outfile.close();
-//
-//    // 以读模式打开文件
-//    ifstream infile;
-//    infile.open("afile.dat");
-//
-//    cout << "Reading from the file" << endl;
-//    infile >> data;
-//
-//    // 在屏幕上写入数据
-//    cout << data << endl;
-//
-//    // 再次从文件读取数据，并显示它
-//    infile >> data;
-//    cout << data << endl;
-//
-//    // 关闭打开的文件
-//    infile.close();
-//
-//    return 0;
+//	glm::vec4 vec(1.0f, 0.0f, 0.0f, 1.0f);
+//	// 译注：下面就是矩阵初始化的一个例子，如果使用的是0.9.9及以上版本
+//	// 下面这行代码就需要改为:
+//	// glm::mat4 trans = glm::mat4(1.0f)
+//	// 之后将不再进行提示
+//	glm::mat4 trans;
+//	trans = glm::translate(trans, glm::vec3(1.0f, 1.0f, 0.0f));
+//	vec = trans * vec;
+//	std::cout << vec.x << vec.y << vec.z << std::endl;
 //}

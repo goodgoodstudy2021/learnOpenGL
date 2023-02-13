@@ -1,3 +1,2 @@
 ﻿  Application.cpp
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  learnOG.vcxproj -> E:\vs2019code\OpenGL\solution\learnOG\x64\Debug\learnOG.exe
+  learnOG.vcxproj -> E:\vs2019code\OpenGL\solution\learnOG\learnOpenGL\x64\Debug\learnOG.exe

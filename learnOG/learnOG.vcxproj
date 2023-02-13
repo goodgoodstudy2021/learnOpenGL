@@ -163,7 +163,9 @@
     <None Include="src\fragmentshader.frag" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="src\awesomeface.png" />
     <Image Include="src\container.jpg" />
+    <Image Include="src\mysky.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
